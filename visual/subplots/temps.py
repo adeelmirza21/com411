@@ -17,13 +17,6 @@ def run():
     axs[0].plot(data)
     axs[1].bar(days, data)
 
-    #axs[0].set_xlim(min(days), max(days))
-    #axs[1].set_xlim(min(days), max(days))
-
-    #axs[0].set_xlabel("Day")
-    #axs[0].set_ylabel("Temp")
-    #axs[1].set_xlabel("day")
-
     plt.tight_layout()
     plt.show()
 
