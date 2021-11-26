@@ -6,12 +6,12 @@ fig, ax = plt.subplots()
 
 def animate(frame):
     global ax
-    x = [1,2,3,4,5,6]
-    y = [1,2,3,4,5,6]
+    ax.cla()
+    x = [1, 2, 3, 4, 5, 6]
+    y = [1, 2, 3, 4, 5, 6]
     ax.set_xlim(0, 10)
     ax.set_ylim(0, 10)
     ax.scatter(x[:frame], y[:frame])
-
 
 
 def run():
